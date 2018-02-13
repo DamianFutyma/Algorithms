@@ -8,11 +8,8 @@ import java.util.Set;
  * If this array don't have any duplicate elements, return -1.
  */
 class FirstDuplicate {
-    private int[] myArray;
 
-    FirstDuplicate(int[] Array){
-        this.myArray=Array;
-    }
+    FirstDuplicate(int[] Array){}
 
     int getDuplicate(int[] myArray) {
         Set<Integer> mySet = new HashSet<Integer>();
