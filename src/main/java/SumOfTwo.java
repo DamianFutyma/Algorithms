@@ -1,7 +1,10 @@
 import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
-
+/**
+ * This method takes two int arrays and integer 'targetValue'.If sum of any two elements
+ * ,one from each array, equals targetValue return true. In different situation, return false.
+ */
 class SumOfTwo {
 
     SumOfTwo(int[] firstArray, int[] secondArray, int targeValue) {
