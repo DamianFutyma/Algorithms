@@ -7,11 +7,12 @@ import java.util.Set;
  */
 class PalindromeRearranging {
 
-    PalindromeRearranging(String checkingString) {}
+    PalindromeRearranging(String checkingString) {
+    }
 
     boolean canBePalindrome(String inputString) {
         inputString = inputString.replaceAll(" ", "");
-        Set<Character> oddCharsArray = new HashSet<Character>();
+        Set<Character> oddCharsArray = new HashSet<>();
         for (char c : inputString.toCharArray()) {
             if (!oddCharsArray.add(c)) {
                 oddCharsArray.remove(c);

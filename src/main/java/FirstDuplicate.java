@@ -9,10 +9,11 @@ import java.util.Set;
  */
 class FirstDuplicate {
 
-    FirstDuplicate(int[] Array){}
+    FirstDuplicate(int[] Array) {
+    }
 
     int getDuplicate(int[] myArray) {
-        Set<Integer> mySet = new HashSet<Integer>();
+        Set<Integer> mySet = new HashSet<>();
         for (int singleElement : myArray) {
             int currentSetSize = mySet.size();
             mySet.add(singleElement);
