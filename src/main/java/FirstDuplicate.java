@@ -3,16 +3,18 @@ import java.util.Set;
 
 /**
  * Description:
- * This method take int[] array 'a' and return first duplicate element. If this array don't have
- * any duplicate elements, return -1.
+ * This method take int[] array 'a' and return first duplicate element. First duplicate number is number which second element
+ * has the minimal index.
+ * If this array don't have any duplicate elements, return -1.
  */
-public class firstDuplicate {
+class FirstDuplicate {
+    private int[] myArray;
 
-    public static void main(String[] args) {
-
+    FirstDuplicate(int[] Array){
+        this.myArray=Array;
     }
 
-    private int findFirstDuplicate(int[] myArray) {
+    int getDuplicate(int[] myArray) {
         Set<Integer> mySet = new HashSet<Integer>();
         for (int singleElement : myArray) {
             int currentSetSize = mySet.size();
