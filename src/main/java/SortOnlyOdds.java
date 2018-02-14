@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class SortOnlyOdds {
 
-    SortOnlyOdds(int[]oddsAndEvenNumber){
+    SortOnlyOdds(int[] oddsAndEvenNumber) {
 
     }
 
