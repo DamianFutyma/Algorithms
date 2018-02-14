@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+/**
+ * This method takes array of positive integer and sorted only even numbers.
+ */
 class SortOnlyOdds {
 
     SortOnlyOdds(int[] oddsAndEvenNumber) {
