@@ -1,6 +1,6 @@
 /**
  * Description:
- * Imagine that you have clock with only one clock hand. In this algorithm takes single double number represented angle between
+ * Imagine that you have clock with only one clock hand. In this algorithm takes single number represented angle between
  * clock hand and number 12 at the clock face. The output is current time in format "hh:mm".
  */
 class WhatTimeIsIt {
