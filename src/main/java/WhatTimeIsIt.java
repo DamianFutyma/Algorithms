@@ -1,4 +1,4 @@
-package Codewars;
+
 /**
  * Description:
  * Imagine that you have clock with only one clock hand. In this algorithm takes single number represented angle between
