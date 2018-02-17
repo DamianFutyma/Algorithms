@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 /**
  * This method takes two int arrays and integer 'targetValue'.If sum of any two elements
  * ,one from each array, equals targetValue return true. In different situation, return false.
+ * New line.
  */
 class SumOfTwo {
 
